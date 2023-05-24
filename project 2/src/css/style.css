@@ -1,0 +1,185 @@
+
+
+*{
+    box-sizing:border-box ;
+}
+.container{
+    max-width: 1140px;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.body{
+  font-family:'Tahoma';
+}
+
+.main {
+    display: flex; 
+}   
+
+.main-image{
+    width: 50%;
+    padding-top: 160px;
+}
+
+.main-text{
+    width: 50%;
+    color: #1c1c1c;
+}  
+  
+.subtitle{
+    font-family: Tahoma;
+    font-size: 48px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 23px;
+    margin-top: 136px;
+}
+
+.name{
+    font-family: Tahoma;   
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 41px;
+
+}
+
+.text-about{
+    font-family: Tahoma;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    width: 521px;
+    height: 95px;
+    margin-bottom: 50px ;
+}
+
+
+.price{
+    font-family: Tahoma;
+    display: block;
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 55px;
+}
+
+.buttons{
+    margin-top: 55px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 55px;
+    
+}
+
+.btn-blue{
+    text-decoration: none;
+    width: 187px;
+    height: 67px;
+    padding: 23px 66px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #4572d7;
+}
+
+.btn-white{
+    text-decoration: none;
+    width: 287px;
+    height: 67px;
+    padding: 21px 73px;
+    border-radius: 5px;
+    color: #4572d7;
+    border: 2px solid #4572d7;
+}
+
+
+
+
+
+
+
+/* Ship Pay */
+
+.box{
+    background-color: #f2f2f2;
+    width: 1367px;
+    height: 408px;
+    margin-top: 231px;
+    margin-bottom: 88px;
+    width: 96%;
+}
+
+.pay-subheadline{
+    font-family: Tahoma;
+    width: 338px;
+    height: 29px;
+    padding-top: 90px;
+    margin-left: 340px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.pay-wrap{
+    display: flex;
+    line-height: 20px;
+}
+
+.about-pay{
+    width: 25%;
+    margin-top: 90px;
+    
+}
+
+.about-pay span{
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    color: #7d7d7d;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+
+.about-pay img{
+    margin-bottom: 25px;
+    margin-left: 111px;
+}
+
+
+
+
+
+
+
+
+/* customers */
+
+.peoples{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.peoples-subheadline{
+    font-family: Tahoma;
+    width: 379px;
+    height: 29px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 300px;
+    color: #333333;
+}
+
+.peoples-wrap{
+    justify-content: space-between;
+    margin-top: 69px;
+    margin-bottom: 111px;
+}
+  
+.peoples-block img{
+    width: 50%;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+}
